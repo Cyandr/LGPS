@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:alpha="1">
+
+    <LinearLayout
+            android:id="@+id/frame"
+            android:orientation="horizontal"
+            android:background="#00000000"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:layout_weight="1"
+                android:id="@+id/locating"
+                android:layout_margin="1dp"
+                android:text="定位"
+                android:background="@xml/btn1shape"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:layout_weight="1"
+                android:id="@+id/navagate"
+                android:layout_margin="1dp"
+                android:text="导航"
+                android:background="@xml/btn1shape"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:layout_weight="1"
+                android:id="@+id/sentry"
+                android:layout_margin="1dp"
+                android:text="哨兵"
+                android:background="@xml/btn1shape"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:layout_weight="1"
+                android:id="@+id/secure"
+                android:layout_margin="1dp"
+                android:text="安防"
+                android:background="@xml/btn1shape"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:layout_weight="1"
+                android:id="@+id/input"
+                android:layout_margin="1dp"
+                android:text="输入"
+                android:background="@xml/btn1shape"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#6b7667"
+        >
+
+    <LinearLayout
+            android:id="@+id/space2"
+            android:orientation="horizontal"
+            android:background="@color/cyan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:measureWithLargestChild="false">
+
+        <TextView
+                android:text="LGPS帮助"
+                android:textColor="@color/cyan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <ListView
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/touming"
+                >
+        </ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

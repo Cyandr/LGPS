@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#fffe3538</color>
+    <color name="touming">#00ffffff</color>
+    <color name="green">#8f009f00</color>
+    <color name="cyan">#88f</color>
+    <color name="qq_color">#ff11B7F3</color>
+    <color name="black">#ff020202</color>
+    <color name="notlinked">#8f5b502a</color>
+    <color name="lcyan">#B1FF61</color>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lgps演示</string>
+    <string name="text_cyandr">This is a LGPS Demo!Created by Cyandr Xiaohui</string>
+    <string name="text2_hint">请输入1到9999的地址序号</string>
+    <string name="upload_btn">上载</string>
+    <string name="invalid_input">您输入的格式不正确，请重新输入：</string>
+    <string name="input_hint">请输入地址信息或者段编号：</string>
+    <string name="setting">设置</string>
+    <string name="help">输入段地址或者编号</string>
+    <string name="exit">退出</string>
+    <string name="introduction_locatingmode">定位模式可以确定自身所在局部地面（段）上的精确位置，而局部地面在空间中的位置又是被精确确定的。</string>
+    <string name="introduction_navigatemode">导航模式可以导航至您所要到达的精确位置，LGPS中，您可以导航至一本书，一个座位，只要其在空间中的坐标是已知的。</string>
+    <string name="introduction_sentrymode">哨兵模式用于监测一个处于静止或者运动状态的目标，其周围一定范围内有其他人或者物体，就会发出警报，您可以用它看护您放在楼下的自行车。</string>
+    <string name="introduction_securemode">安防模式用于监测一定区域地面是否有其他人或者物体闯入。选定某一时刻数据作为初始状态，一旦该数据发生变化，手机就会发出警报，你可以用它来看护您的房屋。</string>
+    <string name="introduction_inputmode">输入模式利用地面进行信息输入,系统会根据用户自身所处精确位置，设置用户周围精确位置所代表的字符，可以用它来进行安全码的输入，或者控制游戏。</string>
+    <string name="introduction_code">LGPS的地理编码系统采用分割递归算法，编码可以表示的定位精度是无限的，经纬度表示一个点的编码，而LGPS的地理编码是一个个固定大小的矩形区域，
+    可以通过运算实现经纬度与其的转换</string>
+    <string name="introduction_notice1">注意1：软件会根据用户手机传统定位获得的经纬度判断用户所在段的编号以及网络地址，但由于现在只有
+    开发者位置处有一个段，所以只有当处于开发者位置时不用输入段编号和网络地址信息。</string>
+    <string name="introduction_notice2">注意2：由于需要硬件（段）的配合，软件上个才能正确显示出绘图信息，且安防模式、哨兵模式等都是段的路由控制器提供的功能，没有段暂时不能测试</string>
+    <string name="on3">注意3：由于没有找到可用的亚米级别的地图引擎，使用地图接口的最大放大级别为5m，而LGPS的精度为0.5m，因此地图上的绘图比例放大了十倍多。</string>
+    <string name="history_tip">我的历史足迹</string>
+    <string name="mode">模式</string>
+    <string name="lgps_output_window">LGPS输出窗口</string>
+    <string name="ip">192.168.2.124</string>
+    <string name="netaddress">段网络地址：</string>
+    <string name="netinfomation">段信息</string>
+    <string name="segportal">段端口：</string>
+    <string name="potal">9000</string>
+    <string name="segNum">E88EB88EH4</string>
+    <string name="navigate_tip">导航模式中开启语音（目前只支持英语）</string>
+    <string name="import_tip">导出数据库到本地(请在手机存储的“LGPSDataBase目录中查找”)</string>
+</resources>

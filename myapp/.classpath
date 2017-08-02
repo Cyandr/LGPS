@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/wyt.LHYH-053/桌面/lpgs/libs/baidumapapi_util_v3_7_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/wyt.LHYH-053/桌面/lpgs/libs/android-support-v4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/wyt.LHYH-053/桌面/lpgs/libs/BaiduLBS_Android.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/wyt.LHYH-053/桌面/lpgs/libs/baidumapapi_base_v3_7_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/wyt.LHYH-053/桌面/lpgs/libs/baidumapapi_cloud_v3_7_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/wyt.LHYH-053/桌面/lpgs/libs/baidumapapi_map_v3_7_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/wyt.LHYH-053/桌面/lpgs/libs/baidumapapi_radar_v3_7_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Documents and Settings/wyt.LHYH-053/桌面/lpgs/libs/baidumapapi_search_v3_7_3.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

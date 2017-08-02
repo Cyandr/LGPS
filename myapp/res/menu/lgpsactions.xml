@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:http="http://schemas.android.com/apk/res/com.example.myapp"
+
+      tools:context=".MyActivity">
+    <item
+            android:id="@+id/lgps_search"
+            android:icon="@drawable/circle"
+            android:title="@string/help"
+            android:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/action_setting"
+            android:title="@string/setting"
+            android:showAsAction="always"/>
+    <item
+            android:id="@+id/action_quit"
+            android:title="@string/exit"
+            android:showAsAction="always"
+            />
+
+</menu>

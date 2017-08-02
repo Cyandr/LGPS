@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="android-support-v41">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/BaiduLBS_Android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/baidumapapi_base_v3_7_3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/baidumapapi_map_v3_7_3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-net-3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#6b7667"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+        >
+
+    <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:focusable="true"
+
+            android:measureAllChildren="true"
+            >
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:id="@+id/space3"
+                    android:orientation="horizontal"
+                    android:background="@color/cyan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:gravity="center"
+                        android:text="@string/netinfomation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+
+                        android:text="@string/netaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <EditText
+                        android:text="@string/ip"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/segmentinfo_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+
+                        android:text="@string/segportal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <EditText
+                        android:text="@string/potal"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/portal_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:text="段编号："
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <EditText
+                        android:text="@string/segNum"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/seg_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:gravity="center"
+                        android:text="其他"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                    <TextView
+                            android:text="@string/navigate_tip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <CheckBox
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            style="@android:style/Widget"
+                            />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                    <TextView
+                            android:lines="3"
+                            android:text="@string/import_tip"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"/>
+
+                    <CheckBox
+                            android:id="@+id/import_yes"
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            style="@android:style/Widget"
+                            />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+		            >
+    <TextView
+		    android:layout_marginBottom="20dp"
+            android:text="监控点选择以及键值定义"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    />
+                <com.example.myapp.MyGridView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/gridView"
+                        android:numColumns="8"
+                        android:verticalSpacing="2dp"
+                        android:stretchMode="columnWidth"
+                        android:horizontalSpacing="2dp"
+                        android:fastScrollEnabled="false"
+                        android:choiceMode="singleChoice"/>
+            </LinearLayout>
+
+            <LinearLayout
+
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    >
+
+                <Button
+                        android:layout_marginRight="100dp"
+                        android:text="确定"
+                        android:background="@xml/btn1shape"
+                        android:id="@+id/confirm_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <Button
+                        android:layout_marginLeft="50dp"
+                        android:text="取消 "
+                        android:background="@xml/btn1shape"
+                        android:id="@+id/cancel_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
